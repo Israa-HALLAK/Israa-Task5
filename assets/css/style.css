@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5.12vw;
+    align-items: center;
+}
+nav ul{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 61px;
+    color: var(--font-color, #333);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 61px;
+}
+nav h1{
+    color: #054C73;
+    font-size: 2.125rem;
+    font-weight: 700;
+    margin-top: 45px;
+}
+nav .list{
+border: none;
+margin-top: 50px;
+display: none;
+}
+div{
+    display: block;
+}
+.hero {
+    position: relative;
+    height: 100vh;
+}
+
+
+.hero .box{
+    
+    background-color: #DFE9F4;
+    width: 47.0717vw;
+    height: 446px;
+    padding: 47px 3.66vw;
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+
+}
+.hero .box span{
+    color: var(--font-color, #333);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.hero .box .Dis{
+    max-width: 470px;
+    min-width: 450px;
+    height: 118px;
+    color: var(--primary-color, #054C73);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 1.375rem 0;
+    padding-top: 13px;
+}
+.hero .box .lor{
+    max-width: 525px;
+    color: var(--font-color, #333);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    margin-top: 22px;
+}
+
+.hero .box  button{
+    color: #fff;
+    padding: 25px 72px;
+    background-color: #054c73;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    flex-shrink: 0;
+
+}
+
+.container{
+    background-color: #fcfcfc;
+}
+.container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.services{
+    padding: 46px 5.12vw;
+    background-color: #F2F5FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.collection{
+    padding: 100px 5.12vw;
+}
+.collection .collText{
+    text-align: center;
+}
+
+.Collection .collText h2 {
+    padding-top: 12px;
+    max-width: 470px;
+    margin: 0 auto;
+}
+.collImg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 50px;
+}
+.c-img{
+    max-width: 400px
+}
+.collImg img{
+    width: 100%;
+}
+#m2{
+    margin-top: -35px;
+}
+.Beautify {
+    padding: 0 5.12vw;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.BText{
+    max-width: 500px;
+}
+.BText p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+    line-height: 39px;
+    padding-top: 16px;
+}
+.Beautify button {
+    background-color: #054C73;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 25px 72px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 50px;
+}
+.Browse{
+    padding: 100px 5.12vw;
+}
+.BrowseText{
+    text-align: center;
+    padding-top: 20px;
+}
+.BrowseText h2{
+    margin: 0 auto;
+    max-width: 530px;
+}
+.BrowseCard{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 39px;
+}
+.Card1{
+    text-align: center;
+    color: #333;
+}
+.BrowseImg{
+    max-width: 383px;
+}
+.Card1 h3{
+    padding-top: 30px;
+}
+.BrowseImg img{
+    width: 100%;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: #D7D6D6;
+}
+
+.Works{
+    padding: 100px 5.12vw;
+}
+.WText{
+    text-align: center;
+    padding: 20px;
+}
+.WorksCard{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    gap: 45px;
+
+}
+.Card2{
+    text-align: center;
+}
+.WorksImg{
+    position: relative;
+    max-width: 380px;
+}
+.WorksImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+.WorksImg span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background-color: #111;
+    outline:15px solid #fcfcfc;
+}
+.WorksCard h3{
+    margin-top: 75px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.WorksCard h2{
+    max-width: 360px;
+    font-size: 20px;
+    color: #666;
+    line-height: 28px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.Join{
+    padding: 90px 5.12vw;
+    background-color: #F2F5FF;
+}
+.JText{
+    text-align: center;
+}
+.Join h2{
+    margin: 0 auto;
+    line-height: 39px;
+    padding-top: 12px;
+    max-width: 530px;
+}
+.Jform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 530px;
+    height: 77px;
+    background-color: #054c73;
+    border-radius: 3px;
+
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    border: 1px solid #054c73;
+    border-radius: 3px;
+}
+form input{
+    padding-left: 30px;
+    border: none;
+    flex: 1;
+    outline: none;
+}
+form button{
+    background-color: #054C73;
+    border: 1px solid #011c42;
+    border-radius: 3px;
+    padding: 28px 45px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 465px;
+    background-color: #03344f;
+    padding: 100px 5.12vw;
+    color: #fff;
+}
+.Beauty h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.Beauty p {
+    padding-top: 25px;
+    max-width: 380px;
+    line-height: 35px;
+    
+}
+.Insta h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: end;
+}
+.InstaImg{
+    padding-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+.InstaImg img{
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+@media  screen and (max-width:992px){
+    nav ul {
+        display: none;
+    }
+    nav .list{
+        display: block;
+    }
+    .hero{
+        width: 100%;
+    }
+    .hero .box{
+        width: 100%;
+        background: none;
+        text-align: center;
+        
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero .box .Dis{
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: 43px;
+        min-width: 200px;
+    }
+    .hero .box .lor{
+        font-size: 15px;
+        margin: 0 auto;
+        line-height: 28px;
+        text-align: center;
+    }
+    .container h1{
+        font-size: 28px;
+    }
+    .container h2{
+        font-size: 14px;
+        max-width: 280px;
+    }
+    .services{
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .services .card .text h1 ,span{font-size: 16px;}
+    .collection{
+        padding-top: 50px;
+    }
+    .collection .collText h2{
+        margin: auto;
+    }
+
+    
+    .collImg{
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 25px;
+        display: flex;
+        align-items: center;
+    }
+    .collImg img{
+        max-width: 300px;
+        height: 390px;
+    }
+    #m2{
+        margin: auto;
+    }
+    .Beautify {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .BrowseCard{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Works{
+        padding-top: 50px;
+    }
+    .WText{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .WText h2{
+        margin: auto;
+    }
+    
+    .WorksCard{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Card2{
+        text-align: center;
+    }
+    .WorksText{text-align: left;}
+    .WorksText h2{
+        font-size: 15px;
+        text-align: left;
+    }
+    .Jform{
+        margin-bottom: 90px;
+    }
+    form button {
+        padding: 17.5px 42.5px;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    footer{
+        flex-wrap: wrap;
+        justify-self: center;
+    }
+    footer .Insta{
+        padding-top: 50px;
+    }
+    .Insta h2{
+        text-align: left;
+    }
+    .Insta .InstaImg{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .InstaImg .Img1{
+        max-width: 130px;
+    }
+    .BImg img{
+        width: 100%;
+    }
+
+
+    }
+    
+    
+
+    
